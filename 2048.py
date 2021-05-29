@@ -14,7 +14,7 @@ def check_full_grid():
         for j in range(cols):
             if grid[i][j] == 0:
                 zero_flag = True
-            elif grid[i][j] == 32:
+            elif grid[i][j] == 2048:
                 print("CONGO ..... You Win")
                 end_game()
     if not zero_flag:
